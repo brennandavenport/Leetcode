@@ -93,8 +93,8 @@ print(book["Lettuce"])
 
 phone_nums = {}
 
-phone_nums["Mom"] = 6785213406
-phone_nums["Dad"] = 4047173318
+phone_nums["Mom"] = 1234567890
+phone_nums["Dad"] = 9091234567
 phone_nums["Emergency"] = 911
 
 print(phone_nums.get("Momm"))
