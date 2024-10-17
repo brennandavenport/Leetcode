@@ -19,7 +19,7 @@ class Solution:
         elif num == 2:
             return True
         
-        for i in range(2, num, 1):
+        for i in range(2, int(num**.5) + 1, 1):
             if num % i == 0:
                 return False
 
